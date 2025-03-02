@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Greet-API
+  boot:
+    admin:
+      client:
+        url: http://localhost:9090
+server:
+  port: 2222
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
